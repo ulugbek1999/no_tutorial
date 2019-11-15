@@ -10,7 +10,6 @@ private TcpListener _tcpListener;
 
 private void Form_Load(object sender, EventArgs e)
 {
-    new DAL().CreateDB();
     CheckForIllegalCrossThreadCalls = false;
 
     //get local address information
